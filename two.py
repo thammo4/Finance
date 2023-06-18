@@ -12,6 +12,8 @@ import seaborn as sns
 
 print('hello, world!');
 
+print('a man a can a fan');
+
 # url = '{}/ticker/bookTicker'.format(config.API_BASE_URL);
 # print(url);
 
