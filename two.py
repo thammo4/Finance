@@ -10,17 +10,17 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
+print('hello, world!');
+
+# url = '{}/ticker/bookTicker'.format(config.API_BASE_URL);
+# print(url);
 
 
-url = '{}/ticker/bookTicker'.format(config.API_BASE_URL);
-print(url);
-
-
-r = requests.get(url,
-	params=dict(symbol='ETHBUSD'),
-	headers={'X-MBX-APIKEY':config.API_SECRET}
-);
-print(r);
+# r = requests.get(url,
+# 	params=dict(symbol='ETHBUSD'),
+# 	headers={'X-MBX-APIKEY':config.API_SECRET}
+# );
+# print(r);
 
 
 
